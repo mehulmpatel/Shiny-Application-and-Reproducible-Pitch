@@ -1,0 +1,34 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Mehul Patel"
+date: "September 22, 2017"
+output: slidy_presentation
+---
+
+## Project Objectve:
+
+- This is the final presentation for the assignment - "Course Project: Shiny Application and Reproducible Pitch".
+- The course is focused on Developing Data Products. And the main objective of the project is to write a Shiny application.
+- Define a BMI Calculator as a Shiny application.
+
+## Shiny Application
+
+- In this project a we have coded a "Shiny Application".
+- The objective of the application was to calculate the BMI of a person, based on given parameter and some bassic information about BMI.
+- The motivation of the writing the application was a when ever we visit to the doctor, and he calculates the the BMI and express his concern as a normal procedure.
+
+## Code logic embedded in the slide
+
+The following code calculates the Body Mass Index based on height and weight parameters.
+
+```{r, echo = TRUE}
+height <- 174
+weight <- 102
+BMI <- weight / ((height/100) * (height/100))
+
+BMI
+```
+
+## The application
+
+The application code & presentation can be found in the following link: https://github.com/mehulmpatel/Shiny-Application-and-Reproducible-Pitch 
